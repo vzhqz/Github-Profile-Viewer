@@ -1,0 +1,115 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputForm {
+    margin-top: 20px;
+}
+
+.githubUsername {
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid hsla(0, 0%, 40%, .4);
+    max-width: 300px;
+    outline: none;
+}
+
+button[type="submit"] {
+    font-size: 2em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.card {
+    margin-top: 20px;
+    border: 2px solid hsla(0, 0%, 30%, .5);
+    background-color: hsl(0, 0%, 16%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 30px;
+    max-width: 325px;
+}
+
+.card .pfp {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+
+.card .name {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.card .username {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: .9em;
+    color: hsl(0, 0%, 60%);
+}
+
+.card .username a {
+    text-decoration: none;
+    color: hsl(0, 0%, 60%);
+}
+
+.card .bio {
+    max-width: 90%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid hsl(0, 0%, 30%);
+}
+
+.card div span {
+    display: block;
+}
+
+.card div p {
+    
+}
+
+.card .errorText {
+    font-size: 2em;
+    text-align: center;
+}
